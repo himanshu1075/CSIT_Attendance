@@ -40,7 +40,8 @@ export function FacultysideAttandance() {
 
 
     async function fetchStudents() {
-        const fetchedStudents = await fetchStudentSubjectwise(subname);
+        const fetchedStudents = fetchStudentSubjectwise(subname);
+        
         setStudents(fetchedStudents.data);
         // console.log(fetchedStudents.data);
         // console.log(students);
@@ -58,7 +59,7 @@ export function FacultysideAttandance() {
         })
     
         toast.promise(responsePromise,{
-          
+          loading: "Loading...",
           success: <b>Attandence Completed</b>,
           error: <b>Couldn't Booked</b>
         })
@@ -103,10 +104,7 @@ export function FacultysideAttandance() {
             }
             
             </Container>:
-            <Container style={{padding:"15rem", textAlign:"center"}}>
-                <h1>Attandance completed</h1>
-                <Button onClick={()=>{navigate("/3rdyear/csit-2/subjects")}}>OK</Button>
-            </Container>
+            null
             
         }
 
