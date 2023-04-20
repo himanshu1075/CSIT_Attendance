@@ -1,0 +1,15 @@
+.carousel {
+    width: 100%;
+    size: 150px 200px;
+    
+}
+.CarouselBg {
+    background: #002147;
+    opacity: 60%;
+    color: #fdc800;
+    animation-delay: 1s;
+    animation: backwards;
+    animation-fill-mode: forwards;
+    transition: 1s;
+ 
+} 

@@ -1,0 +1,39 @@
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+    /* padding: 5rem 10rem 20rem 5rem; */
+    padding: 10rem;
+    
+    margin:7rem;
+    height: 33rem;
+    width: 30rem;
+    
+    box-shadow: 0px 10px 30px 0px black;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.title {
+    font-weight: bold;
+    text-align:center;
+    text-transform:capitalize;
+}
+
+.desc {
+    text-align: center;
+}
+
+.decoration {
+    text-decoration: none;
+    color: black;
+    
+}

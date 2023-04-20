@@ -1,0 +1,125 @@
+.Home-Details {
+    text-align:center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+.clear:before, .clear:after, .entry-content:before, .entry-content:after, .comment-content:before, .comment-content:after, .site-header:before, .site-header:after, .site-content:before, .site-content:after, .site-footer:before, .site-footer:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.site-header .site-branding {
+    display: table;
+    height: 90px;
+}
+.site-header .site-branding a img {
+    width: auto;
+    padding: 5px 0;
+}
+.lazy-loaded {
+    height: 15vh;
+    width:8vw
+}
+.header-icon-area {
+    float: right;
+    padding-left: 25px;
+    position: relative;
+    font-size: 18px;
+}
+.site-header .main-navigation ul {
+    text-align: right;
+}
+.carousel {
+    width: 100%;
+    size: 150px 200px;
+    
+}
+.CarouselBg {
+    background: #002147;
+    opacity: 60%;
+    color: #fdc800;
+    animation-delay: 1s;
+    animation: backwards;
+    animation-fill-mode: forwards;
+    transition: 1s;
+ 
+} 
+
+newsSection:hover {
+    color:#fdc800;
+    transition:1s;
+}
+.newsHeading {
+    margin-top: 55px;
+}
+newsHeading:hover {
+    color: aqua;
+}
+
+.footerPart .widget {
+    color: #f5f5f5;
+}
+.widget {
+    margin: 0 0 1.5em;
+}
+
+.AboutUs {
+    font-size: 18px;
+}
+
+.ChooseUsReasons {
+    position: relative;
+    margin-bottom: 10px;
+}
+.ChooseUsReasons:hover .middle {
+    opacity: 1;
+    animation-fill-mode: left;
+
+}
+.ChooseUsReasons:hover .image {
+    opacity: 0.7;
+    
+  }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    background-color: #0b3e79;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* .text {
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  } */

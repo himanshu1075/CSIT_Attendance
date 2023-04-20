@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+.Top-Navbar {
+  margin-top: 1vw;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +14,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.App-color {
+  background-color: #282c34;
 }
 
 .App-header {
