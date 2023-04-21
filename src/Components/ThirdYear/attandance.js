@@ -9,6 +9,7 @@ import {Toaster, toast} from 'react-hot-toast';
 export function FacultysideAttandance() {
     const [students, setStudents] = useState([]);
     const [index, setIndex] = useState(0);
+    const [isFetched, setIsFetched] = useState(0);
     const navigate  = useNavigate();
 
     const url = window.location.href;
@@ -40,9 +41,9 @@ export function FacultysideAttandance() {
 
 
     async function fetchStudents() {
-        const fetchedStudents = fetchStudentSubjectwise(subname);
-        
+        const fetchedStudents = await fetchStudentSubjectwise(subname);
         setStudents(fetchedStudents.data);
+        setIsFetched(1);
         // console.log(fetchedStudents.data);
         // console.log(students);
     }
@@ -59,7 +60,7 @@ export function FacultysideAttandance() {
         })
     
         toast.promise(responsePromise,{
-          loading: "Loading...",
+          
           success: <b>Attandence Completed</b>,
           error: <b>Couldn't Booked</b>
         })
@@ -91,7 +92,7 @@ export function FacultysideAttandance() {
                         <Container>
                             <Button onClick={() => { setIndex(Math.abs(index - 1) % students.length) }}>Prev</Button>
                             <Button onClick={() => {
-                                if (index == students.length - 1) {
+                                if (index === students.length - 1) {
                                     handlebook();
                                 }
                                 
@@ -103,8 +104,11 @@ export function FacultysideAttandance() {
                 </Container>
             }
             
-            </Container>:
-            null
+            </Container>: isFetched && <Container style={{padding:"15rem", textAlign:"center"}}>
+                <h1>Attandance completed</h1>
+                <Button onClick={()=>{navigate("/3rdyear/csit-2/subjects")}}>OK</Button>
+            </Container> 
+            
             
         }
 
