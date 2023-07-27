@@ -7,6 +7,11 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export const NavigationBar = () => {
     const [showMediaIcon, setShowMediaIcon] = useState(false);
+
+    const clickNavbarHandler = () => {
+        setShowMediaIcon(!showMediaIcon);
+        
+    }
     return (
         <>
             <nav className="main-nav">
@@ -90,7 +95,7 @@ export const NavigationBar = () => {
 
                     {/* Hamburger menu code */}
                     <div className="hamburger-menu">
-                        <a href="#" onClick={() => setShowMediaIcon(!showMediaIcon)} ><GiHamburgerMenu /></a>
+                        <a href="#" onClick={clickNavbarHandler} ><GiHamburgerMenu /></a>
                     </div>
 
                 </div>

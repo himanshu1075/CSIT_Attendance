@@ -11,7 +11,6 @@ function Login() {
      localStorage.removeItem('user');
      localStorage.removeItem('token');
      localStorage.removeItem('enrollment');
-     console.log("Yrr chal ja na please..");
     
  },[])
   

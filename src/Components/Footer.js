@@ -26,8 +26,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href='#!' className='text-dark'>
-                  Facebook
+                <a href='https://aitr.ac.in/' target="_blank" className='text-dark'>
+                  AITR
                 </a>
               </li>
             </ul>

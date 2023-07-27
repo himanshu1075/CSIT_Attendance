@@ -9,7 +9,7 @@ import WhyChooseUs from "./WhyChooseUs";
 export function Home() {
     return (
         <>
-            
+          
             <ImageCarousel/>
             <br />
             <div id="section2"><About/></div>

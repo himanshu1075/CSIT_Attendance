@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { AttandenceSubjectWise } from '../../services/StudentServices';
 import { Container, Table } from 'react-bootstrap';
 

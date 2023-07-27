@@ -20,6 +20,7 @@ function App() {
       
 
       <BrowserRouter>
+      <div style={{overflowX:"hidden"}}>
       <Routes>
       <Route path='/student/academics' element={<Logout/>} />
       <Route path='/faculty/academics' element={<Logout/>} />
@@ -49,6 +50,7 @@ function App() {
           
         </Routes>
         <Footer/>
+        </div>
       </BrowserRouter>
     </>
   );

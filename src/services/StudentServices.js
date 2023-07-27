@@ -12,7 +12,7 @@ export  function Studentlogin(student) {
 }
 export  function fetchStudentSubjectwise(subject){
     
-    return   axios.get(`${BASE_URL}/3rdyear/csit-2/subjects/${subject}`, {headers:{"Authorization":`Bearer ${token}`}});
+    return   axios.get(`${BASE_URL}/3rdyear/csit-2/subjects/${subject}`);
 }
 export function updateAttandanceSubjectwise(subject, enrollment) {
     return axios.put(BASE_URL+'/updateattandance/'+subject+"/"+enrollment)
