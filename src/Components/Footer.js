@@ -120,7 +120,7 @@ export default function Footer() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
-        Made By CI-2(2020-2024) Himanshu, Jaydeep and Kunal 
+        Made By CI-2(2020-2024) <a href='https://www.linkedin.com/in/himanshu-mishra-bb895a20a/' target='_blank'>Himanshu</a>, <a href='https://www.linkedin.com/in/jaydeepsinghchouhan/' target='_blank'>Jaydeep</a> and <a href='https://www.linkedin.com/in/kunal-pratap-singh-pawar/' target='_blank'>Kunal</a> 
       </div>
     </MDBFooter>
   );

@@ -123,3 +123,7 @@ newsHeading:hover {
     font-size: 16px;
     padding: 16px 32px;
   } */
+
+  txtDecoration {
+    text-decoration: none;
+  }

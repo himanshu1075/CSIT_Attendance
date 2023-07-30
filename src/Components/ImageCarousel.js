@@ -12,11 +12,11 @@ export default function ImageCarousel() {
                     <img
                         className="carousel d-block H"
                         src={botathonWinner}
-                        alt="First slide"
+                        alt="ACRO Botathon 2022 Winners"
                     />
                     <Carousel.Caption className="CarouselBg" style={{ color: "#fdc800,delay(500)" }}>
-                        <h3>First slide</h3>
-                        <p>Description about slide</p>
+                        <h3>ACRO Botathon 2022 Winners</h3>
+                        <p>Acro Botathon 2022 concluded successfully and Team Hustler Won the first price with members Jaydeep and Kunal of CSIT-2 2020-2024</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -24,12 +24,12 @@ export default function ImageCarousel() {
                     <img
                         className="carousel d-block "
                         src={iotCompetitionWinner}
-                        alt="Third slide"
+                        alt="IoT Competetion Participants"
                     />
 
                     <Carousel.Caption className="CarouselBg">
-                        <h3>Second slide</h3>
-                        <p>Description about slide</p>
+                        <h3>IoT Competetion held by IT Department</h3>
+                        <p>Students from CSIT participated in the IoT competetion held by IT department and the first runners up is Team Hustlers with Jaydeep and Kunal.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
