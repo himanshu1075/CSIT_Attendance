@@ -28,7 +28,7 @@ export default function ImageCarousel() {
                     />
 
                     <Carousel.Caption className="CarouselBg">
-                        <h3>IoT Competetion held by IT Department</h3>
+                        <h3>IoT Competetion held by IT Department </h3>
                         <p>Students from CSIT participated in the IoT competetion held by IT department and the first runners up is Team Hustlers with Jaydeep and Kunal.</p>
                     </Carousel.Caption>
                 </Carousel.Item>

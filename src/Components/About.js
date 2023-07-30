@@ -42,7 +42,7 @@ The course @ CSIT is in the AICTE nomenclature and accepted by them as equivalen
 
                                 <a >
                                 <div style={{ margin: "0px 10px 10px 10px", textDecoration: 'none',color: "#fff" }}>
-                                    <newsSection>Rupak Korde of batch 2019-23 got selected in Juspay as a Assosiate Software Development Engineer. </newsSection>
+                                    <newsSection> Rupak Korde of batch 2019-23 got selected in Juspay as a Assosiate Software Development Engineer. </newsSection>
                                     {/* <br /><StyledButton className="rounded" style={{ padding: "1px 1px 1px 1px", marginTop: "5px" }}>Read more</StyledButton><br /> */} <br />
                                     <br /> <br /></div></a> <a style={{ textDecoration: 'none',color: "#fff" }} href = "https://timesofindia.indiatimes.com/entertainment/events/indore/acropolis-group-celebrates-annual-fest-with-zeal-and-zest/articleshow/74438222.cms" target="_blank"><newsSection id="section3">See All News</newsSection><strong style={{ color: "#fdc800" }}> &gt;</strong></a>
                                     <br /><br />

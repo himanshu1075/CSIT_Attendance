@@ -11,7 +11,7 @@ export default function WhyChooseUs() {
       <Container style={{ margin: "5rem", display: "flex",justifyContent: "center"  }}>
         <h2 ><strong>Why Choose Us ?</strong></h2>
       </Container>
-      <br />
+      <br/>
       <Row className="imageBox">
         <Col className="col-sm-4 ChooseUsReasons">
         <a href="https://online.fliphtml5.com/pcafe/cbav/#p=12" style={{textDecoration:'none', color: '#000'}}  target="blank">

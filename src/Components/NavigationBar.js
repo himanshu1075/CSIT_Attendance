@@ -16,7 +16,7 @@ export const NavigationBar = () => {
         <>
             <nav className="main-nav">
 
-                <div className="logo ">
+                <div className="logo">
                     <img className="NavBarImg" src={csitIcon} alt="csit logo"></img>
                 </div>
                 <div className={showMediaIcon ? "menu-link mobile-menu-link hover-underline-animation" : "menu-link hover-underline-animation"}>
