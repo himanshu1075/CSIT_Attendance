@@ -53,7 +53,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-              Career(HR) Email: 
+              Career(HR)Email: 
                 <a href="mailto:hr@acropolis.in" className='text-dark'>
                 hr@acropolis.in
                 </a>
