@@ -35,7 +35,7 @@ function StudentAcademics(props) {
                             <Col lg={6}>
                                 <Link to="/student/academics/attendance/" className="decoration">
                                     <Card>
-                                        <h4>Attandence</h4>
+                                        <h4>Attendance</h4>
                                         <h6><p>{`${attendance}%`}</p></h6>
                                     </Card>
                                 </Link>
